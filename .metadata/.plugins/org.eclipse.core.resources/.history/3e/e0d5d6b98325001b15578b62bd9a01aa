@@ -1,0 +1,26 @@
+package chapter4;
+
+import java.util.Scanner;
+
+public class IfExample2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		System.out.println("주민번호를 입력하세요 (13자리) : " );
+		
+		String n = sc.next();
+//		System.out.println(n.indexOf("1",7));
+		
+		
+		if (n.indexOf("1", 7) == 1) {
+			System.out.println(n);
+			System.out.println("남자 입니다");
+		}
+		else {
+			System.out.println(n);
+			System.out.println("여자 입니다");
+		}
+		}
+	}
+

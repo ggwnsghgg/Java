@@ -1,0 +1,11 @@
+package alone_java_CH08_EX2;
+
+public class DaoExample {
+	public static voiod dbWork(DataAccessObject ado) {
+		dao.select();
+		dao.insert();
+		dao.update();
+		dao.delete();
+	}
+
+}

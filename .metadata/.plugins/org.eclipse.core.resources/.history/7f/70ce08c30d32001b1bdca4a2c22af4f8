@@ -1,0 +1,32 @@
+package Chapter9;
+
+public class Genesis extends Car{
+
+	@Override
+	public void start() {
+		System.out.println("Genesis 시동을 켭니다.");
+		
+	}
+
+	@Override
+	public void drive() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void stop() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void turnOff() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+
+	
+
+}

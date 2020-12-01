@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Interfaceex.Shell&apos; to &apos;Sell&apos;&#x0D;&#x0A;- Original project: &apos;Chapter10&apos;&#x0D;&#x0A;- Original element: &apos;Interfaceex.Shell&apos;&#x0D;&#x0A;- Renamed element: &apos;Interfaceex.Sell&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Shell&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;Interfaceex{Shell.java[Shell" matchStrategy="1" name="Sell" qualified="false" references="true" similarDeclarations="false" stamp="1606697779234" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,24 @@
+package polymorphism;
+
+import java.util.ArrayList;
+
+class Animal{
+	public void move() {
+		System.out.println("동물이 움직입니다.");
+	}
+}
+
+
+public class AnimalTest {
+	ArrayList<Animal> aniList = new ArrayList<Animal>();
+
+	public static void main(String[] args) {
+		AnimalTest aTest = new AnimalTest();
+		aTest.addAnimal();
+		System.out.println("원래 형으로 다운 캐스팅");
+		aTest.testCasting();
+	
+
+	}
+
+}

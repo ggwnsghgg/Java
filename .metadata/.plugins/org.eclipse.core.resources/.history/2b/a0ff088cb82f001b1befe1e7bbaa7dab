@@ -1,0 +1,7 @@
+package gamelevel;
+
+public abstract class PlayerLevel {
+	public abstract void run();
+	public 
+
+}

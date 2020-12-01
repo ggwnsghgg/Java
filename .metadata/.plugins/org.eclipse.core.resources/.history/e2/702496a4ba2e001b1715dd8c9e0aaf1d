@@ -1,0 +1,19 @@
+package polymorphism;
+
+public class Customer {
+	protected int customerID;					// protected 자식클래스 들은 접근이 가능함
+	protected String customerName;
+	protected String customerGrade;
+	int bonusPoint;
+	double bonusRatio;
+	
+	public Customer() {
+		initCustomer();
+	}
+	
+	public Customer(int customerID, String customerName) {
+		this.customerID = customerID;
+		this.customerName = customerName;
+		initCustomer();
+	}
+}

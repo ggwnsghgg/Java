@@ -1,0 +1,12 @@
+package sec03.exam01;
+
+public class Phnoe {
+	//필드
+	public String owner;
+	
+	
+	//생성자
+	public Phone(String owner);
+	this.owner = onwer;
+
+}

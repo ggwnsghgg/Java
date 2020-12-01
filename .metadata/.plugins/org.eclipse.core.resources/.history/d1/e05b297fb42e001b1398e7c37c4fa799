@@ -1,0 +1,13 @@
+package virtualfunction;
+
+public class OverridingTest3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int price = 10000;
+		
+		Customer customerLee = new Customer(10010, "ÀÌ¼ø½Å");		
+
+	}
+
+}

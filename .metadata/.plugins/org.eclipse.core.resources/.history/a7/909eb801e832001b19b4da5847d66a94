@@ -1,0 +1,10 @@
+package alone_java_CH09;
+
+public class NestedClassExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

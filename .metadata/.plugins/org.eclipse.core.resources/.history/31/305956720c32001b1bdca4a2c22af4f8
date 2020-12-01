@@ -1,0 +1,11 @@
+package Chapter9;
+
+public class Sonata {
+	public static void main(String[] args) {
+		System.out.println("Sonata" + Car.start);
+		System.out.println("Sonata" + Car.drive);
+		System.out.println("Sonata" + Car.stop);
+		System.out.println("Sonata" + Car.turnoff);
+
+	}
+}	

@@ -1,0 +1,15 @@
+package polymorphism;
+
+public class Customer {
+	protected int customerID;					// protected 자식클래스 들은 접근이 가능함
+	protected int customerName;
+	protected int customerGrade;
+	int bonusPoint;
+	double bonusRatio;
+	
+	public Customer() {
+		init Customer();
+	}
+	
+	public Customer()
+}

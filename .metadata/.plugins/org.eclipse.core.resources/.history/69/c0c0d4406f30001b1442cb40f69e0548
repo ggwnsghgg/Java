@@ -1,0 +1,17 @@
+package sec02.exam03;
+
+public class VechicleExample {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Vechicle vehicle = new Bus();
+		
+		vehicle.run();
+		//vehicle.checkFare(); // ( x) Vehicle 인터페이스는 checkFare()가 없음
+		
+		Bus bus = new Bus();
+		
+		bus.run();
+		bus.checkFace();
+	}
+
+}

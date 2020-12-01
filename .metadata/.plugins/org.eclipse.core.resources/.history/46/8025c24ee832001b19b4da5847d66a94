@@ -1,0 +1,7 @@
+package alone_java_CH09;
+
+public class Car {
+	class Tire {}
+	static class Engine {}
+
+}

@@ -1,0 +1,11 @@
+package polymorphism;
+
+public class AnimalTest {
+	ArrayList<Animal> aniList = new ArrayList<Animal>();
+
+	public static void main(String[] args) {
+	
+
+	}
+
+}

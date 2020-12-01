@@ -1,0 +1,20 @@
+package alone_java_CH09_EX2;
+
+public class Anonymous {
+	Worker field = new Worker() {
+		@Override
+		public void start() {
+			System.out.println("디자인을 합니다.");
+		}
+	};
+	
+	void methoe1() {
+		Work localVar = new Worker() {
+			@Override
+			public void start() {
+				System.out.println("개발을 합니다.");
+			}
+		};
+		localVar.start();
+	}
+}

@@ -1,0 +1,13 @@
+package Chapter9;
+
+public class Genesis {
+
+	public static void main(String[] args) {
+		System.out.println("Genesis" + Car.start);
+		System.out.println("Genesis" + Car.drive);
+		System.out.println("Genesis" + Car.stop);
+		System.out.println("Genesis" + Car.turnoff);
+
+	}
+
+}

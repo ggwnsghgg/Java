@@ -1,0 +1,10 @@
+package Chapter9;
+
+public class CarTest {
+	public static void main(String[] args) {
+		ArrayList<Car> carList = new ArrayList<Car>();
+		carList.add(new Sonata());
+
+	}
+
+}

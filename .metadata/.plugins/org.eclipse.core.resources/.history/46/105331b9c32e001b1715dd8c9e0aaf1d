@@ -1,0 +1,11 @@
+package polymorphism;
+
+public class CustomerTest1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+			ArrayList<Customer> customerList = new ArrayList<Customer>();
+		
+	}
+
+}

@@ -1,0 +1,12 @@
+package abstractex;
+
+public class MynoteBook extends NoteBook {
+
+	@Override
+	public void typing() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+
+}

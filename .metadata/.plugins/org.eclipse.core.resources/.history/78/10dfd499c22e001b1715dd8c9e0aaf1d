@@ -1,0 +1,7 @@
+package polymorphism;
+
+public class GoldCustomer  extends Customer{
+	double saleRatio;
+	
+	public 
+}

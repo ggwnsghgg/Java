@@ -1,0 +1,18 @@
+package Chapter8;
+
+public abstract class Employee {
+	public String name;
+	public String grade;
+	public Employee(String name) {
+		this.name = name
+	}
+}
+
+public class Engineer extends Employee {
+	prviate String killset;
+	public String getSkillSet() {
+		return skillset;
+	}
+	public void setSkillSet(Strin skillset)
+	this.skillSet = skillset;
+}

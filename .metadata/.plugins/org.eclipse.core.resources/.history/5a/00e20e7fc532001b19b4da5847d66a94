@@ -1,0 +1,8 @@
+package sec01.exam02;
+
+public class A {
+	//인스턴스 필드
+	B field1 = new B();
+	C field2 = new C();
+	
+}

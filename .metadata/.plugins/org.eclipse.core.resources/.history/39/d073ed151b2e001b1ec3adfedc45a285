@@ -1,0 +1,21 @@
+package inheritance;
+
+public class CustomerTest1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Customer customerLee = new Customer();
+		customerLee.setCustomerID(10010);
+		customerLee.setCustomerName("이순신");
+		customerLee.bonusPoint = 1000;
+		System.out.println(customerLee.showCustomerInfo());
+		
+		VIPCustmoer custmoerKim = new VIPCustmoer();
+		custmoerKim.setCustomerID(10010);
+		custmoerKim.setCustomerName("이순신");
+		custmoerKim.bonusPoint = 1000;
+		System.out.println(custmoerKim.showCustomerInfo());
+		
+	}
+
+}

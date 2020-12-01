@@ -1,0 +1,14 @@
+package Chapter7;
+
+public class Dog {
+	private String name;
+	private String type;
+	public String getName() {
+		return name;
+	}
+	
+	public void setName(String name) {
+		this.name = name;
+	}
+
+}

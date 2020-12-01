@@ -1,0 +1,31 @@
+package sec01.exam04;
+
+import sec01.exam03.RemoteControl;
+
+public class Audio implements RemoteControl{
+	
+	//ÇÊµå
+	private int volume;
+
+	
+	@Override
+	public void trunOn() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void turnOff() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void setVolume(int volume) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	
+
+}

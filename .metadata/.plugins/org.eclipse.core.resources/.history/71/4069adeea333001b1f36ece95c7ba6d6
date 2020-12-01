@@ -1,0 +1,22 @@
+package alone_java_CH11_EX;
+
+public class Member {
+	private String id;
+	private String name;
+	
+	public Member(String id, String name) {
+		this.id = id;
+		this.name = name;
+		
+	}
+	@Override
+	public boolean equals(Object obj) {
+		if(obj instanceof Student) {
+			Student student = (Student) obj;
+			if(Member.equals(student.getStudentNum())) {
+				return true;
+			}
+		}
+		return false;
+	}
+}

@@ -1,0 +1,15 @@
+package virtualfunction;
+
+public class TestA {
+	int num;
+	
+	void aaa() {
+		System.out.println("aaa() Ãâ·Â");
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

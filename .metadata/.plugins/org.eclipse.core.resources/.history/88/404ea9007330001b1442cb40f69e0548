@@ -1,0 +1,22 @@
+package sec02.exam05;
+
+public class ImplementationC implements InterfaceC {
+
+	@Override
+	public void methodA() {
+		System.out.println("ImplementationC-methodA() ½ÇÇà");
+	}
+
+	@Override
+	public void methodB() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void methodC() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+}

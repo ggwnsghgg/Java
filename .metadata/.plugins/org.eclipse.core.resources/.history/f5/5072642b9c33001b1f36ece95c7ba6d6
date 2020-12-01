@@ -1,0 +1,10 @@
+package sec01.exam22;
+
+public class BoxingUnboxExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

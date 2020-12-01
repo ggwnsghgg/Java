@@ -1,0 +1,10 @@
+package alone_java_CH08_EX2;
+
+public class MySqalDao {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

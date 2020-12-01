@@ -1,0 +1,18 @@
+package alone_java_CH09_EX;
+
+public class Chatting {
+	void startChat(String chatId) {
+		String nickName = null;
+		nickNmae = chatId;
+		
+		class Chat {
+			public void start() {
+				while (true) {
+					String inputData = "æ»≥Á«œººø‰";
+					String message = "[" + nickName + "]" + inputData;
+					sendMessage(message);
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,7 @@
+package alone_java_CH08_EX2;
+
+public class MySqalDao implements DataAccessObject{
+	
+	
+
+}

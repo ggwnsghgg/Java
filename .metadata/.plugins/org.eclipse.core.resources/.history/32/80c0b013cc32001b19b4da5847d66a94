@@ -1,0 +1,8 @@
+package sec02.exam03;
+
+public class Window {
+	Button button1 = new Button();
+	Button button2 = new Button();
+	
+	//필드 초기값 대입
+}

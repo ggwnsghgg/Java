@@ -1,0 +1,15 @@
+package alone_java_CH09_EX;
+
+import sun.print.BackgroundLookupListener;
+
+public class CheckBoxExample {
+
+	public static void main(String[] args) {
+		CheckBox checkBox = new CheckBox();
+		checkBox.setOnSelectListener(new BackgroundLookupListener());
+		checkBox.select();
+		
+
+	}
+
+}

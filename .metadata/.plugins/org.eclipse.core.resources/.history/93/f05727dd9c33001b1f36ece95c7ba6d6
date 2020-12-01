@@ -1,0 +1,11 @@
+package sec01.exam23;
+
+public class AutoBoxingUnBoxingExample {
+
+	public static void main(String[] args) {
+		// ÀÚµ¿¹Ú½Ì
+		Integer obj = 100;
+		System.out.println("value: " + obj.intValue());
+	}
+
+}

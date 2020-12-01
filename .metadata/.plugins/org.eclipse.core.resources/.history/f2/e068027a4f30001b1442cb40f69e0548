@@ -1,0 +1,30 @@
+package sec01.exam04;
+
+import sec01.exam03.RemoteControl;
+
+public class Televison implements RemoteControl {
+
+	//필드
+	private int volume;
+	
+	@Override
+	public void trunOn() {
+		System.out.println("TV를 켭니다.");
+		
+	}
+
+	@Override
+	public void turnOff() {
+		System.out.println("TV를 끕니다.");
+	}
+
+	@Override
+	public void setVolume(int volume) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	// 필드
+	
+
+}

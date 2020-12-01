@@ -1,0 +1,12 @@
+package Chapter9;
+
+public class Grander {
+	public static void main(String[] args) {
+		System.out.println("Grander" + Car.start);
+		System.out.println("Grander" + Car.drive);
+		System.out.println("Grander" + Car.stop);
+		System.out.println("Grander" + Car.turnoff);
+
+	}
+
+}

@@ -1,0 +1,8 @@
+package Chapter9;
+
+public class Car {
+	public static final String run = "시동을 켭니다.";
+	public static final String drive = "달립니다";
+	public void stop();
+	public void turnoff();
+}

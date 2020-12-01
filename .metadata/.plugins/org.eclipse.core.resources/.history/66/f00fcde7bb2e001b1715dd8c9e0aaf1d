@@ -1,0 +1,17 @@
+package polymorphism;
+
+public class CustomerTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Customer customerLee = new Customer();
+		customerLee.setCustomerID(10010);
+		customerLee.setCustomerName("ÀÌ¼ø½Å");
+		customerLee.bonusPoint = 1000;
+
+
+		System.out.println(cus);
+		
+	}
+
+}

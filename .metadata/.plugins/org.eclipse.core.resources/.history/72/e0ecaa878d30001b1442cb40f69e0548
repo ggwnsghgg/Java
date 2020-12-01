@@ -1,0 +1,6 @@
+package alone_java_CH08_EX2;
+
+public interface Soundable {
+	String sound();
+
+}

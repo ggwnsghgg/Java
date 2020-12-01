@@ -1,0 +1,25 @@
+package inheritance;
+
+public class VIPCustmoer {
+		private int customerID;
+		private String customerrNmae;
+		private String customerGrade;
+		int bonusPoint;
+		double bonusRatio;
+		
+		private int agentID;
+		double saleRatio;
+		
+		public VIPCustmoer() {
+			customerGrade = "VIP";
+			bonusRatio = 0.5;
+			saleRatio = 0.1;
+		}
+		
+		public int calcPrice(int price) {
+			bonusPoint += price * bonusRatio;
+			return price - (int)(price * saleRatio);
+			
+			
+		}
+}
