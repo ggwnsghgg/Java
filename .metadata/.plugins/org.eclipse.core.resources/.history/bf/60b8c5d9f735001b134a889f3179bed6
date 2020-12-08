@@ -1,0 +1,5 @@
+package collection;
+
+class StackTest {
+	private ArrayList<String> arrayStack = new ArrayList<String>();
+}

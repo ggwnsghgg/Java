@@ -1,0 +1,14 @@
+package collection.arraylist;
+
+import collection.Member;
+
+public class MebmerArrayListTest {
+
+	public static void main(String[] args) {
+	MemberArrayList memberArrayList = new MemberArrayList();
+	
+	Member memberLewe = new Member(1001, "ÀÌÁö¿ø");
+
+	}
+
+}

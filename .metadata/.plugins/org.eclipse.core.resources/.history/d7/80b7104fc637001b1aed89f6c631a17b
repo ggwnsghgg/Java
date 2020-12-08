@@ -1,0 +1,19 @@
+package Test;
+
+import school.GenerateGradeReport;
+import school.Subject;
+
+public class TestMain {
+	School goodSchool = School.getInstance();
+	Subject korea;
+	Subject math;
+	
+	GenerateGradeReport gradeReport = new GenerateGradeReport();
+	
+	public static void main(String[] args) {
+		TestMain test = new TestMain();
+		
+		test.creatSubject();
+		test.createStudent();
+	}
+}

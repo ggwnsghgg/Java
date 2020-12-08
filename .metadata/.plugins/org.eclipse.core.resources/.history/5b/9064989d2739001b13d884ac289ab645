@@ -1,0 +1,8 @@
+package test;
+
+import javax.swing.*;
+public class ContentPaneEx extends JFrame{
+	public static void main(String[] args) {
+		new ContentPaneEx();
+	}
+}

@@ -1,0 +1,13 @@
+package sec02.exam01;
+
+import java.util.*;
+
+public class StackExample {
+
+	public static void main(String[] args) {
+		Stack<Coin> coinBox = new Stack<Coin>();
+		
+
+	}
+
+}

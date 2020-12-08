@@ -1,0 +1,15 @@
+package sec01.exam07;
+
+import java.util.*;
+
+public class HashMapExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Map<String, Integer> map = new HashMap<String, Integer>();
+		
+		map.put(new Student(1, "ȫ�浿"), 95);
+		map.put(new Student(1, "ȫ�浿"), 85);
+	}
+
+}

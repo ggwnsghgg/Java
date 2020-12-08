@@ -1,0 +1,25 @@
+package object;
+
+class Student {
+	int studentId;
+	String studentName;
+	
+	public Student(int studentId, String studentName) {
+		this.studentId = studentId;
+		this.studentName = studentName;
+	}
+	
+	public String toString() {
+		return studentId + "," + studentName;
+	}
+}
+public class EqualTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Student studentLee = new Student(100,"이상원");
+		Student studentLee2 = new Student(100,"이상원");
+		Student studentSang = new Student(100,"이상원");
+	}
+
+}

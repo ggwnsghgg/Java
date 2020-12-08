@@ -1,0 +1,22 @@
+package collection.arraylist;
+
+import java.util.ArrayList;
+
+class Myqueue {
+	private ArrayList<String> arrayQueue = new ArrayList<String>();
+}
+public class QueueTest {
+	public static void main(String[] args) {
+		
+		MyQueue queue = new  myQueue();
+		queue.enQueue("A");
+		queue.enQueue("B");
+		queue.enQueue("C");
+		
+		System.out.println(queue.deQueue);
+		System.out.println(queue.deQueue);
+		System.out.println(queue.deQueue);
+
+	}
+
+}

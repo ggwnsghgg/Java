@@ -1,0 +1,5 @@
+package MyNumber;
+
+public interface MyNumber {
+
+}

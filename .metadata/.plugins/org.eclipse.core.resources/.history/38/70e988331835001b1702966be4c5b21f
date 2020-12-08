@@ -1,0 +1,17 @@
+package sec01.exam05;
+
+import java.awt.Toolkit;
+
+public class BeepPrintExample5 {
+
+	public static void main(String[] args) {
+		Thread thread = new Thread() {
+			@Override
+			public void run() {
+				Toolkit tookit
+			}
+		}
+
+	}
+
+}

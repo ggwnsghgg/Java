@@ -1,0 +1,8 @@
+package swingtest;
+
+import javax.swing.*;
+import java.awt.*;
+
+public class ContentPane extends JFrame{
+	
+}

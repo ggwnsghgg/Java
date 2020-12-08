@@ -1,0 +1,10 @@
+package swingtest;
+
+import javax.swing.*;
+import java.awt.*;
+
+public class ContentPane extends JFrame{
+	ContentPaneEx() {
+		// TODO Auto-generated constructor stub
+	}
+}

@@ -1,0 +1,11 @@
+package sec01.exam05;
+
+import java.util.*;
+
+public class HashSetExample {
+	public static void main(String[] args) {
+		Set<Member> set = new HashSet<Member>();
+
+	}
+
+}

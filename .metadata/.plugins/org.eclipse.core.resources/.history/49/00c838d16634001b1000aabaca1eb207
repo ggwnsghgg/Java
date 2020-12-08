@@ -1,0 +1,8 @@
+package object;
+
+class Student {
+	int studentId;
+	String studentName;
+	
+	public Student()
+}

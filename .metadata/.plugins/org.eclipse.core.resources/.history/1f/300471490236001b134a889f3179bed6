@@ -1,0 +1,14 @@
+package collection.treeset;
+
+import collection.Member;
+
+public class TreeSet {
+
+	public static void main(String[] args) {
+		MemberTreeSet memberTreeSet = new MemberTreeSet();
+		
+		Member memberPark = new Member(1003, "¹Ú¼­ÈÍ");
+
+	}
+
+}

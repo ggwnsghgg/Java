@@ -1,0 +1,11 @@
+package map.hashmap;
+
+public class MemberHashMapTest {
+
+	public static void main(String[] args) {
+		MemberHashMap memberHashMap = new MemberHashMap();
+		
+		Member memberLe = new Member(1001, "ÀÌÁö¿ø");
+	}
+
+}

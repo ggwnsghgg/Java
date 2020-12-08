@@ -1,0 +1,11 @@
+package collection.hashset;
+
+import java.util.HashSet;
+
+public class MemberHashSet {
+		private HashSet<Member> hashSet;
+		
+		public MemberHashSet() {
+			hashSet = new HashSet<Member>();
+		}
+}

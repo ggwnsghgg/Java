@@ -1,0 +1,7 @@
+package exception;
+
+public class IDFormatExceptiion extends Exception{
+	public IDFormatExcetpion(String message) {
+		super(message);
+	}
+}

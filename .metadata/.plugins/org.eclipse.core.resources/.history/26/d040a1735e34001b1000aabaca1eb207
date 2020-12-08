@@ -1,0 +1,20 @@
+package object;
+
+class Book {
+	int bookNumber;
+	String bookTitle;
+	
+	ToStringEx(int bookNumber, String bookTitle) {
+		this.bookNumber = bookNumber;
+		this.bookTitle = bookTitle;
+	}
+}
+
+public class ToStringEx {
+	public static void main(String[] args) {
+		ToStringEx book1 = new ToStringEx(200, "°³¹Ì");
+		
+		System.out.println(book1);
+		System.out.println(book1.toString());
+	}
+}

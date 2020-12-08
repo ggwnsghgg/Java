@@ -1,0 +1,9 @@
+package sec01.exam08;
+
+import java.util.*;
+
+public class HashTableExample {
+	public static void main(String[] args) {
+		Map<String, String> map = new Hashtable<String, String>();
+	}
+}

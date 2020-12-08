@@ -1,0 +1,7 @@
+package collection.arraylist;
+
+import java.util.ArrayList;
+
+class StackTest {
+	private ArrayList<String> arrayStack = new ArrayList<String>();
+}

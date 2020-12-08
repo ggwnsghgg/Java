@@ -1,0 +1,28 @@
+package Test;
+
+import school.Define;
+import school.GenerateGradeReport;
+import school.Subject;
+
+public class TestMain {
+	School goodSchool = School.getInstance();
+	Subject korea;
+	Subject math;
+	
+	GenerateGradeReport gradeReport = new GenerateGradeReport();
+	
+	public static void main(String[] args) {
+		TestMain test = new TestMain();
+		
+		test.creatSubject();
+		test.createStudent();
+		
+		String report = test.gradeReport.getReport();
+		System.out.println(report);
+	}
+	
+	public void createSubject() {
+		korean = new Subject("국어", Define.KOREAN);
+		math = new Subject("수학", Define.MATH)
+	}
+}

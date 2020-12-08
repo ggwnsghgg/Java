@@ -1,0 +1,17 @@
+package school;
+
+import java.util.ArrayList;
+
+public class Student {
+	private int studentId;								// 학번
+	private String studentName;						// 학생이름
+	private Subject majorSubject;					// 필수 과목
+
+	private ArrayList<Score> scoreList = new ArrayList<Score>();    // 학생이 수강한 과목의 점수 리스트, addSubjectSocre() 메서드가 호출되면 이 리스트에 추가됨
+	
+	public Student(int studentId, String studentName, Subject majorSubject) {
+		this.studentId = studentId;
+		this.studentName = studentName;
+		this.majorSubject = majorSubject;
+	}
+}

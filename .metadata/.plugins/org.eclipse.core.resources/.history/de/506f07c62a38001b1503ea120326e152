@@ -1,0 +1,18 @@
+package map.hashmap;
+
+import java.util.TreeMap;
+
+import collection.Member;
+
+public class MemberTreeMapTest {
+	private TreeMap<Integer, Member> treeMap;
+	
+	public MemberTreeMapTest() {
+		treeMap = new TreeMap<Integer, Member> ();
+		
+	}
+	
+	public void addMmember(Member member) {
+		treeMap.put(member.getMemberId(), member);
+	}
+}

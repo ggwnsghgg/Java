@@ -1,0 +1,15 @@
+package sec01.exam06;
+
+import java.util.*;
+
+public class HashMapExample {
+
+	public static void main(String[] args) {
+	// Map 拿泛记 积己
+		Map<String, Integer> map = new HashMap<String, Integer>();
+		
+		// 按眉 历厘
+		
+	}
+
+}

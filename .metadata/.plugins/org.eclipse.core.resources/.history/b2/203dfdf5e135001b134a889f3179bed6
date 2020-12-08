@@ -1,0 +1,8 @@
+package collection.arraylist;
+
+public class MemberArrayList 
+
+private ArrayList<Member> arrayList;
+{
+
+}
