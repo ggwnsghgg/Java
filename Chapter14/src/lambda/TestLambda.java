@@ -24,3 +24,5 @@ public class TestLambda {
 		return s -> System.out.println(s + "world");
 	}
 }
+
+
