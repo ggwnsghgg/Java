@@ -6,13 +6,23 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="add"/>
+		<item key="selection" value="관리자"/>
 		<list key="findhistory">
-			<item value="add"/>
+			<item value="re"/>
+			<item value="관리자"/>
+			<item value="ProductList"/>
+			<item value="Product"/>
+			<item value="log_admin"/>
+			<item value="뒤로가기"/>
+			<item value="POS_Main"/>
 			<item value="void add"/>
-			<item value="member"/>
-			<item value="meber"/>
-			<item value="Ong"/>
+			<item value="tf"/>
+			<item value="yellow"/>
+			<item value="MBtn"/>
+			<item value="frame"/>
+			<item value="fraem"/>
+			<item value="POS"/>
+			<item value="add"/>
 		</list>
 		<list key="replacehistory">
 		</list>

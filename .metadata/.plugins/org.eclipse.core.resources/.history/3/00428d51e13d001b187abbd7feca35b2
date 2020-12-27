@@ -1,0 +1,8 @@
+package shin;
+
+public interface idpw {
+	String id [] = {"admin","admin1"};
+	String pw [] = {"xxx","xxx1"};
+	
+	for (int i=0; i<)
+}	

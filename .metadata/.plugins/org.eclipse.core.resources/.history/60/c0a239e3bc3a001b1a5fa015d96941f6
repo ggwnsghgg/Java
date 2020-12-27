@@ -1,0 +1,79 @@
+package pos;
+
+import java.awt.EventQueue;
+import java.awt.Image;
+import java.awt.image.BufferedImage;
+import java.io.File;
+
+import javax.imageio.ImageIO;
+import javax.swing.*;
+import java.awt.BorderLayout;
+import java.awt.Color;
+import java.awt.FlowLayout;
+
+
+public class test {
+	
+	private JFrame frmCu;
+	private BufferedImage imag1;
+	
+	
+	/**
+	 * Launch the application.
+	 */
+	public static void main(String[] args) {
+		EventQueue.invokeLater(new Runnable() {
+			public void run() {
+				try {
+					test window = new test();
+					window.frmCu.setVisible(true);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		});
+	}
+
+	/**
+	 * Create the application.
+	 */
+	public test() {
+		initialize();
+		
+		
+		
+	}
+
+	/**
+	 * Initialize the contents of the frame.
+	 */
+	private void initialize() {
+		
+	
+		
+		ImageIcon img1 = new ImageIcon("C:\\Java_LAB\\Pos_Project\\src\\pos\\event.jpg");
+		Image ch1 = img1.getImage();
+		Image ch2 = ch1.getScaledInstance(409, 601, Image.SCALE_SMOOTH);
+		ImageIcon img = new ImageIcon(ch2);
+		
+		
+		frmCu = new JFrame();
+		frmCu.setTitle("CU \uBB34\uC778 \uD3EC\uC2A4\uAE30");
+		frmCu.setBounds(100, 100, 700, 800);
+		frmCu.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frmCu.getContentPane().setLayout(null);
+		
+		JButton btnNewButton = new JButton("\uAD6C\uB9E4\uD558\uB7EC \uAC00\uAE30");
+		btnNewButton.setBounds(284, 705, 109, 23);
+		frmCu.getContentPane().add(btnNewButton);
+		
+		
+		JLabel lblNewLabel = new JLabel();
+		lblNewLabel.setIcon(new ImageIcon(ch2));
+		lblNewLabel.setBounds(138, 83, 409, 601);
+		frmCu.getContentPane().add(lblNewLabel);
+		
+		frmCu.setVisible(true);
+		
+	}
+}

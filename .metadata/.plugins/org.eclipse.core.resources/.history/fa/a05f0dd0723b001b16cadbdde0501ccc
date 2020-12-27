@@ -1,0 +1,16 @@
+package pos;
+
+import javax.swing.*;
+import java.awt.*;
+
+public class action extends JFrame {
+	public action() {
+		
+		
+		
+		
+	}
+	public static void main (String args[]) {
+		
+	}
+}

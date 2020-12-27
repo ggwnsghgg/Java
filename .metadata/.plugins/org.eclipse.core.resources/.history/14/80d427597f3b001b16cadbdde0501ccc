@@ -1,0 +1,252 @@
+package shin;
+
+import java.awt.EventQueue;
+import java.awt.Image;
+import java.awt.image.BufferedImage;
+import java.io.File;
+
+import javax.imageio.ImageIO;
+import javax.swing.*;
+import java.awt.BorderLayout;
+import java.awt.Color;
+import java.awt.FlowLayout;
+import java.awt.Frame;
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
+
+
+// 메인 화면 프레임
+public class main {
+   
+   private JFrame frame;
+   private BufferedImage imag1;
+
+  
+   
+   
+   
+   /**
+    * Launch the application.
+    */
+   public static void main(String[] args) {
+      EventQueue.invokeLater(new Runnable() {
+         public void run() {
+            try {
+               main window = new main();
+               window.frame.setVisible(true);
+            } catch (Exception e) {
+               e.printStackTrace();
+            }
+         }
+      });
+   }
+
+   /**
+    * Create the application.
+    */
+   public main() {
+      initialize();
+      
+      
+      
+   }
+
+   /**
+    * Initialize the contents of the frame.
+    */
+   private void initialize() {
+      
+   
+	  JButton btn1 = new JButton("구매하러가기");
+      ImageIcon img1 = new ImageIcon("C:\\Users\\shin\\Desktop\\pos\\src\\shin\\event.jpg");
+      Image ch1 = img1.getImage();
+      Image ch2 = ch1.getScaledInstance(409, 610, Image.SCALE_SMOOTH);
+      
+      
+      
+      frame = new JFrame();
+      frame.setTitle("CU \uBB34\uC778 \uD3EC\uC2A4\uAE30");
+      frame.setBounds(100, 100, 700, 800);
+      frame.setResizable(false);
+      frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+      frame.getContentPane().setLayout(null);
+      
+      JButton btnNewButton = new JButton("\uAD6C\uB9E4\uD558\uB7EC \uAC00\uAE30");
+      btn1.addActionListener(new ActionListener() {
+		
+		@Override
+		public void actionPerformed(ActionEvent e) {
+			new menu();
+		}
+	});
+
+ 
+
+   
+
+      btn1.setBounds(268, 728, 133, 23);
+      
+      frame.getContentPane().add(btn1);
+      
+      
+      JLabel lblNewLabel = new JLabel();
+      lblNewLabel.setIcon(new ImageIcon(ch2));
+      lblNewLabel.setBounds(138, 108, 409, 610);
+      frame.getContentPane().add(lblNewLabel);
+      
+      JLabel lblNewLabel_1 = new JLabel();
+      lblNewLabel_1.setIcon(new ImageIcon("C:\\Users\\shin\\Desktop\\pos\\src\\shin\\banner.PNG"));
+      lblNewLabel_1.setBounds(92, 21, 512, 77);
+      frame.getContentPane().add(lblNewLabel_1);
+      frame.setVisible(true);
+      
+      
+   }
+   
+  // 메뉴 프레임
+   public class menu extends JFrame{
+	   
+	   menu () {
+		   
+	JFrame frame = new JFrame("메뉴");
+	frame.setSize(740, 590);
+	frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+	frame.getContentPane().setLayout(null);   
+	frame.setResizable(false);
+	frame.setTitle("메뉴");
+
+	JButton btn = new JButton("메뉴1");
+	btn.setBounds(491, 494, 97, 53);
+	
+	JButton btn1 = new JButton("메뉴1");
+	btn1.setBounds(12, 10, 102, 103);
+	
+	JButton btn2 = new JButton("메뉴2");
+	btn2.setBounds(126, 10, 102, 103);
+	
+	JButton btn3 = new JButton("메뉴3");
+	btn3.setBounds(354, 10, 102, 103);
+	
+	JButton btn4 = new JButton("메뉴4");
+	btn4.setBounds(240, 10, 102, 103);
+	
+	JButton btn5 = new JButton("메뉴5");
+	btn5.setBounds(240, 10, 102, 103);
+	
+	JButton btn6 = new JButton("메뉴6");
+	btn6.setBounds(469, 10, 102, 103);
+	
+	JButton btn7 = new JButton("메뉴7");
+	btn7.setBounds(583, 123, 102, 103);
+	
+	JButton btn8 = new JButton("메뉴8");
+	btn8.setBounds(469, 123, 102, 103);
+	
+	JButton btn9 = new JButton("메뉴9");
+	btn9.setBounds(354, 123, 102, 103);
+	
+	
+	   
+	frame.getContentPane().add(btn);
+	frame.getContentPane().add(btn1);
+	frame.getContentPane().add(btn2);
+	frame.getContentPane().add(btn3);
+	frame.getContentPane().add(btn4);
+	frame.getContentPane().add(btn5);
+	frame.getContentPane().add(btn6);
+	frame.getContentPane().add(btn7);
+	frame.getContentPane().add(btn8);
+	frame.getContentPane().add(btn9);
+	 
+	   
+	
+	   
+
+	
+	   frame.setVisible(true);
+
+	   
+   
+//	   JPanel panel = new JPanel();
+//	   	setContentPane(panel);
+//		panel.setBounds(12, 84, 700, 354);
+//		frame.getContentPane().add(panel);
+//		panel.setLayout(null);
+//		
+//		JButton btn1 = new JButton("New button");
+//		btn1.setBounds(12, 10, 102, 103);
+//		panel.add(btn1);
+//		
+//		JButton btn2 = new JButton("New button");
+//		btn2.setBounds(126, 10, 102, 103);
+//		panel.add(btn2);
+//		
+//		JButton btn3 = new JButton("New button");
+//		btn3.setBounds(354, 10, 102, 103);
+//		panel.add(btn3);
+//		
+//		JButton btn4 = new JButton("New button");
+//		btn4.setBounds(240, 10, 102, 103);
+//		panel.add(btn4);
+//		
+//		JButton btn5 = new JButton("New button");
+//		btn5.setBounds(240, 10, 102, 103);
+//		panel.add(btn5);
+//		
+//		JButton btn6= new JButton("New button");
+//		btn6.setBounds(469, 10, 102, 103);
+//		panel.add(btn6);
+//		
+//		JButton btn7 = new JButton("New button");
+//		btn7.setBounds(583, 123, 102, 103);
+//		panel.add(btn7);
+//		
+//		JButton btn8 = new JButton("New button");
+//		btn8.setBounds(469, 123, 102, 103);
+//		panel.add(btn8);
+//		
+//		JButton btn9 = new JButton("New button");
+//		btn9.setBounds(354, 123, 102, 103);
+//		panel.add(btn9);
+//		
+//		JButton btn10 = new JButton("New button");
+//		btn10.setBounds(240, 123, 102, 103);
+//		panel.add(btn10);
+//		
+//		JButton btn11 = new JButton("New button");
+//		btn11.setBounds(126, 123, 102, 103);
+//		panel.add(btn11);
+//		
+//		JButton btn12 = new JButton("New button");
+//		btn12.setBounds(12, 123, 102, 103);
+//		panel.add(btn12);
+//		
+//		JButton btn13 = new JButton("New button");
+//		btn13.setBounds(583, 236, 102, 103);
+//		panel.add(btn13);
+//		
+//		JButton btn14 = new JButton("New button");
+//		btn14.setBounds(469, 236, 102, 103);
+//		panel.add(btn14);
+//		
+//		JButton btn15 = new JButton("New button");
+//		btn15.setBounds(354, 236, 102, 103);
+//		panel.add(btn15);
+//		
+//		JButton btn16 = new JButton("New button");
+//		btn16.setBounds(240, 236, 102, 103);
+//		panel.add(btn16);
+//		
+//		JButton btn17= new JButton("New button");
+//		btn17.setBounds(126, 236, 102, 103);
+//		panel.add(btn17);
+//		
+//		JButton btn18 = new JButton("New button");
+//		btn18.setBounds(12, 236, 102, 103);
+//		panel.add(btn18);
+
+	
+		
+	   }
+   	}
+   }

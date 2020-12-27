@@ -1,0 +1,26 @@
+package pos;
+
+import javax.swing.*;
+import java.awt.*;
+
+public class main extends JFrame{
+	public static void main(String[] args) {
+		
+		JFrame frm = new JFrame("CU 포스기");
+		frm.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frm.setLocationRelativeTo(null);
+		
+		frm.getContentPane().setLayout(null);
+		
+		JButton btn1 = new JButton("주문하기");
+		
+		btn1.setBounds(280, 500, 122, 30);
+		
+		frm.getContentPane().add(btn1);
+		
+		frm.setSize(600, 700);
+		frm.setVisible(true);
+		
+	new main();
+	}
+}

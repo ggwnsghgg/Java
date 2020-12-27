@@ -3,7 +3,7 @@
 	<section name="NewWizardAction">
 		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.jdt.ui.wizards.JavaProjectWizard"/>
 		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
-			<item value="org.eclipse.jdt.ui.java"/>
+			<item value="org.eclipse.fx.ide"/>
 		</list>
 	</section>
 	<section name="CleanDialogSettings">
@@ -18,7 +18,22 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\shin\Desktop\Pos_Project_final"/>
+			<item value="C:\Users\shin\Desktop\JavaProject-main\Pos_Project_final"/>
+			<item value="C:\Users\shin\Desktop\JavaProject-main"/>
+			<item value="C:\Java_LAB\Pos_Project_final"/>
+			<item value="C:\Users\shin\Desktop\final\Pos_Project_final"/>
+			<item value="C:\Users\shin\Desktop\final"/>
+			<item value="C:\Users\shin\Desktop\src"/>
+			<item value="C:\Users\shin\Desktop\pos"/>
 			<item value="C:\Users\shin\Desktop\교재\혼자 공부하는 자바 답안\chap11\bin\sec02"/>
 		</list>
+	</section>
+	<section name="SaveAsDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="675"/>
+		<item key="DIALOG_Y_ORIGIN" value="162"/>
+		<item key="DIALOG_WIDTH" value="525"/>
+		<item key="DIALOG_HEIGHT" value="580"/>
+		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
 	</section>
 </section>

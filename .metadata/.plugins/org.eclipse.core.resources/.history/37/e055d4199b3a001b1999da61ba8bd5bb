@@ -1,0 +1,16 @@
+package pos;
+
+import javax.swing.*;
+import java.awt.*;
+
+public class main extends JFrame{
+	
+	main() {
+		setTtile("Cu 무인 포스기입니다.");
+		set
+	}
+	
+public static void main(String[] args) {
+	new main();
+	}
+}

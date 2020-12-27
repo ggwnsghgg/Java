@@ -19,9 +19,9 @@ public class RadioButtonEx extends JFrame {
 		
 		
 		// 이미지 라이도버튼을 만들기 위해 2개의 미지지 객체를 생성.
-		ImageIcon cherryIcon = new ImageIcon("C:\\Java_LAB\\master_CH11\\src\\master_CH11\\Cherry.jpg");							 // 비선택 상태를 표시하는 이미지
+		ImageIcon cherryIcon = new ImageIcon("C:\\Java_LAB\\master_CH11\\src\\master_CH11\\cherry.jpg");							 // 비선택 상태를 표시하는 이미지
 		
-		ImageIcon selectedCherryIcon = new ImageIcon("C:\\Java_LAB\\master_CH11\\src\\master_CH11\\cyber.jpg");	// 선택 상태를 표시하는 이미지
+		ImageIcon selectedCherryIcon = new ImageIcon("C:\\Java_LAB\\master_CH11\\src\\master_CH11\\selectedCherry.jpg");	// 선택 상태를 표시하는 이미지
 		
 		// 버튼 그룹 객체 생성
 		ButtonGroup g = new ButtonGroup();

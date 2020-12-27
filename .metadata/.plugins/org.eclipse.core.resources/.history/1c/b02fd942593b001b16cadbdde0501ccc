@@ -1,0 +1,19 @@
+package pos;
+
+import javax.swing.*;
+import java.awt.*;
+
+public class main extends JFrame{
+	
+	main() {
+		setTitle("메인 화면");
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
+		
+		setSize(300,250);
+		setVisible(true);
+	}
+	public static void main(String[] args) {
+		new main();
+	}
+}

@@ -1,0 +1,17 @@
+package pos;
+
+import javax.swing.*;
+import java.awt.*;
+
+public class main extends JFrame{
+	public static void main(String[] args) {
+		
+		JFrame frm = new JFrame("CU Æ÷½º±â");
+		
+		
+		frm.setSize(600, 700);
+		frm.setVisible(true);
+		
+	new main();
+	}
+}

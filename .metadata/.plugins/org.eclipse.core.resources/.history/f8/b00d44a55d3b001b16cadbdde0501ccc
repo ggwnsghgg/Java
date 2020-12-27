@@ -1,0 +1,9 @@
+package pos;
+
+import javax.swing.JButton;
+
+public class action extends main {
+	public static void main(String[] args) {
+		
+	}
+}

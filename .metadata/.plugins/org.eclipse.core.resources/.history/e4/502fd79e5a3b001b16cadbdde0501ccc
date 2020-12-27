@@ -1,0 +1,15 @@
+package pos;
+
+import javax.swing.*;
+import java.awt.*;
+
+public class main extends JFrame{
+		public static void mian(String[] args) {
+			JFrame frm = new JFrame();
+			JPanel pan = new JPanel();
+			
+			frm.setResizable(false);
+			frm.setSize(800,700);
+			
+	}
+}

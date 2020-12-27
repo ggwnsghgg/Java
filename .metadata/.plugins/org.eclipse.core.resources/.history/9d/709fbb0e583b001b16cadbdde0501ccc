@@ -1,0 +1,17 @@
+
+package pos;
+
+import javax.swing.*;
+import java.awt.*;
+ class main extends JFrame{
+	private Image img;
+	public main(Image img) {
+		
+	}
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

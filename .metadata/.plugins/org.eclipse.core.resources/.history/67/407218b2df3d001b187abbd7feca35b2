@@ -1,0 +1,9 @@
+package shin;
+
+public interface idpw {
+	public interface id {
+
+	}
+	String id [] = {"admin","admin1"};
+	String pw [] = {"xxx","xxx1"};
+}	

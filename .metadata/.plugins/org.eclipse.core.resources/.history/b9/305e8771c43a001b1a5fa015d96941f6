@@ -1,0 +1,73 @@
+package pos;
+
+import java.awt.EventQueue;
+
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.JButton;
+import javax.swing.JTabbedPane;
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
+
+public class login2 {
+
+	private JFrame frame;
+
+	/**
+	 * Launch the application.
+	 */
+	public static void main(String[] args) {
+		EventQueue.invokeLater(new Runnable() {
+			public void run() {
+				try {
+					login2 window = new login2();
+					window.frame.setVisible(true);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		});
+	}
+
+	/**
+	 * Create the application.
+	 */
+	public login2() {
+		initialize();
+	}
+
+	/**
+	 * Initialize the contents of the frame.
+	 */
+	private void initialize() {
+		frame = new JFrame();
+		frame.setBounds(100, 100, 443, 494);
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frame.getContentPane().setLayout(null);
+		
+		JButton btnNewButton = new JButton("로그아웃");
+		btnNewButton.setBounds(303, 10, 97, 23);
+		frame.getContentPane().add(btnNewButton);
+		
+		JTabbedPane tabbedPane = new JTabbedPane(JTabbedPane.TOP);
+		tabbedPane.setBounds(12, 51, 403, 394);
+		frame.getContentPane().add(tabbedPane);
+		
+		JPanel panel = new JPanel();
+		tabbedPane.addTab("관리자 명단", null, panel, null);
+		panel.setLayout(null);
+		
+		JPanel panel_1 = new JPanel();
+		tabbedPane.addTab("제품", null, panel_1, null);
+		panel_1.setLayout(null);
+		
+		JButton btnNewButton_1 = new JButton("관리자 추가");
+		btnNewButton_1.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+			}
+		});
+		btnNewButton_1.setBounds(12, 10, 97, 23);
+		frame.getContentPane().add(btnNewButton_1);
+	}
+
+}

@@ -1,0 +1,8 @@
+package pos;
+
+import javax.swing.JButton;
+
+public class action extends main {
+		JButton btn = new JButton();
+		
+}

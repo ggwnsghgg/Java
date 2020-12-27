@@ -1,0 +1,7 @@
+package pos;
+
+import javax.swing.JFrame;
+
+public class action extends JFrame {
+	
+}

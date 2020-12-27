@@ -1,0 +1,16 @@
+
+package pos;
+
+import javax.swing.JFrame;
+
+public class main extends JFrame{
+	public main(Image img) {
+		
+	}
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

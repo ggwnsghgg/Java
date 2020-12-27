@@ -1,0 +1,113 @@
+package admin;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.Statement;
+
+public class adminDAO {
+	 public static void main(String[] args) {
+
+		 
+
+		 
+
+	 }
+
+	public static boolean create(adminDTO dto) throws Exception {
+
+	 
+
+	boolean flag = false;
+
+	Connection con = null;
+
+	Statement stmt = null; // 데이터를 전송하는 객체
+
+	String na = dto.getNa();
+
+	String birth = dto.getBirth();
+
+	String id = dto.getId();
+
+	String pwd = dto.getPwd();
+
+	 
+
+	String sql = "INSERT INTO info(na, birth, id, pwd) VALUES";
+
+	 
+
+	try {
+
+	/*한글처리를 위해
+
+	* 이클립스와 데이터베이스 설치시 한글처리를 미리 해주면 코드에서 한글처리
+
+	* 안해도 됩니다.
+
+	* */
+
+	sql += "('" + new String(na.getBytes(), "ISO-8859-1") + "','"  
+
+	+ new String(birth.getBytes(), "ISO-8859-1") + "','"
+
+	+ new String(id.getBytes(), "ISO-8859-1") + "','"
+
+	+ new String(pwd.getBytes(), "ISO-8859-1") + "')";
+
+	 
+
+
+	Class.forName("com.mysql.jdbc.Driver");
+
+	con = DriverManager.getConnection(
+
+			"jdbc:mysql://localhost:3306/admin?serverTimezone=Asia/Seoul","root","1234");
+
+	stmt = (Statement) con.createStatement();
+
+	stmt.executeUpdate(sql);
+
+	 
+
+	flag = true;
+
+	} catch (Exception e) {
+
+	System.out.println(e);
+
+	flag = false;
+
+	} finally {
+
+	 
+
+	try {
+
+	 
+
+	if (stmt != null)
+
+	stmt.close();
+
+	if (con != null)
+
+	con.close();
+
+	} catch (Exception e) {
+
+	System.out.println(e.getMessage());
+
+	}
+
+	}
+
+	 
+
+	return flag;
+
+	 
+
+	}
+
+	}

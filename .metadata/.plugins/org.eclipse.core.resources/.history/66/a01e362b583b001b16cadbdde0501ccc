@@ -1,0 +1,17 @@
+
+package pos;
+
+import javax.swing.*;
+import java.awt.*;
+
+ class main extends JFrame{
+	private Image img;
+	public main(Image img) {
+		this.img = img;
+	}
+
+	public static void paintComponent (Grphics g) {
+		g.drawImage(img, 0,0, null);
+	}
+
+}

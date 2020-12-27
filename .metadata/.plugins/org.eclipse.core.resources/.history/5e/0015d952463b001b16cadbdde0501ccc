@@ -1,0 +1,179 @@
+package pos;
+
+import java.awt.EventQueue;
+
+import javax.swing.JFrame;
+import javax.swing.JButton;
+import javax.swing.JTextField;
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
+import javax.swing.JToggleButton;
+import javax.swing.JRadioButton;
+import javax.swing.JPanel;
+import javax.swing.JToolBar;
+import javax.swing.JTabbedPane;
+
+public class menu {
+
+	private JFrame frame;
+	private JTextField textField;
+
+	/**
+	 * Launch the application.
+	 */
+	public static void main(String[] args) {
+		EventQueue.invokeLater(new Runnable() {
+			public void run() {
+				try {
+					menu window = new menu();
+					window.frame.setVisible(true);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		});
+	}
+
+	/**
+	 * Create the application.
+	 */
+	public menu() {
+		initialize();
+	}
+
+	/**
+	 * Initialize the contents of the frame.
+	 */
+	private void initialize() {
+		frame = new JFrame("메뉴");
+		frame.setBounds(100, 100, 1080, 700);
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frame.getContentPane().setLayout(null);
+		
+		JButton btnNewButton = new JButton("관리자 로그인");
+		btnNewButton.setBounds(12, 628, 109, 23);
+		frame.getContentPane().add(btnNewButton);
+		
+		textField = new JTextField();
+		textField.setBounds(12, 507, 822, 117);
+		frame.getContentPane().add(textField);
+		textField.setColumns(10);
+		
+		JButton btnNewButton_1 = new JButton("New button");
+		btnNewButton_1.setBounds(846, 507, 97, 23);
+		frame.getContentPane().add(btnNewButton_1);
+		
+		JPanel panel = new JPanel();
+		panel.setBounds(12, 62, 1040, 435);
+		frame.getContentPane().add(panel);
+		panel.setLayout(null);
+		
+		JButton btnNewButton_2 = new JButton("New button");
+		btnNewButton_2.setBounds(12, 10, 133, 117);
+		panel.add(btnNewButton_2);
+		
+		JButton btnNewButton_2_1_1_1_1_1_1_1_1 = new JButton("New button");
+		btnNewButton_2_1_1_1_1_1_1_1_1.setBounds(882, 266, 133, 117);
+		panel.add(btnNewButton_2_1_1_1_1_1_1_1_1);
+		
+		JButton btnNewButton_2_1 = new JButton("New button");
+		btnNewButton_2_1.setBounds(157, 10, 133, 117);
+		panel.add(btnNewButton_2_1);
+		
+		JButton btnNewButton_2_1_1 = new JButton("New button");
+		btnNewButton_2_1_1.setBounds(302, 10, 133, 117);
+		panel.add(btnNewButton_2_1_1);
+		
+		JButton btnNewButton_2_1_1_1 = new JButton("New button");
+		btnNewButton_2_1_1_1.setBounds(447, 10, 133, 117);
+		panel.add(btnNewButton_2_1_1_1);
+		
+		JButton btnNewButton_2_1_1_1_1 = new JButton("New button");
+		btnNewButton_2_1_1_1_1.setBounds(592, 10, 133, 117);
+		panel.add(btnNewButton_2_1_1_1_1);
+		
+		JButton btnNewButton_2_1_1_1_1_1 = new JButton("New button");
+		btnNewButton_2_1_1_1_1_1.setBounds(737, 10, 133, 117);
+		panel.add(btnNewButton_2_1_1_1_1_1);
+		
+		JButton btnNewButton_2_1_1_1_1_1_1_1 = new JButton("New button");
+		btnNewButton_2_1_1_1_1_1_1_1.setBounds(882, 137, 133, 117);
+		panel.add(btnNewButton_2_1_1_1_1_1_1_1);
+		
+		JButton btnNewButton_2_1_1_1_1_1_1 = new JButton("New button");
+		btnNewButton_2_1_1_1_1_1_1.setBounds(882, 10, 133, 117);
+		panel.add(btnNewButton_2_1_1_1_1_1_1);
+		
+		JButton btnNewButton_2_1_1_1_1_1_2 = new JButton("New button");
+		btnNewButton_2_1_1_1_1_1_2.setBounds(737, 137, 133, 117);
+		panel.add(btnNewButton_2_1_1_1_1_1_2);
+		
+		JButton btnNewButton_2_1_1_1_1_1_2_1 = new JButton("New button");
+		btnNewButton_2_1_1_1_1_1_2_1.setBounds(737, 266, 133, 117);
+		panel.add(btnNewButton_2_1_1_1_1_1_2_1);
+		
+		JButton btnNewButton_2_1_1_1_1_2_1 = new JButton("New button");
+		btnNewButton_2_1_1_1_1_2_1.setBounds(592, 266, 133, 117);
+		panel.add(btnNewButton_2_1_1_1_1_2_1);
+		
+		JButton btnNewButton_2_1_1_1_1_2 = new JButton("New button");
+		btnNewButton_2_1_1_1_1_2.setBounds(592, 137, 133, 117);
+		panel.add(btnNewButton_2_1_1_1_1_2);
+		
+		JButton btnNewButton_2_1_1_1_2 = new JButton("New button");
+		btnNewButton_2_1_1_1_2.setBounds(447, 137, 133, 117);
+		panel.add(btnNewButton_2_1_1_1_2);
+		
+		JButton btnNewButton_2_1_1_1_2_1 = new JButton("New button");
+		btnNewButton_2_1_1_1_2_1.setBounds(447, 266, 133, 117);
+		panel.add(btnNewButton_2_1_1_1_2_1);
+		
+		JButton btnNewButton_2_1_1_2_1 = new JButton("New button");
+		btnNewButton_2_1_1_2_1.setBounds(302, 266, 133, 117);
+		panel.add(btnNewButton_2_1_1_2_1);
+		
+		JButton btnNewButton_2_1_1_2 = new JButton("New button");
+		btnNewButton_2_1_1_2.setBounds(302, 137, 133, 117);
+		panel.add(btnNewButton_2_1_1_2);
+		
+		JButton btnNewButton_2_1_2 = new JButton("New button");
+		btnNewButton_2_1_2.setBounds(157, 137, 133, 117);
+		panel.add(btnNewButton_2_1_2);
+		
+		JButton btnNewButton_2_1_2_1 = new JButton("New button");
+		btnNewButton_2_1_2_1.setBounds(157, 266, 133, 117);
+		panel.add(btnNewButton_2_1_2_1);
+		
+		JButton btnNewButton_2_2_1 = new JButton("New button");
+		btnNewButton_2_2_1.setBounds(12, 266, 133, 117);
+		panel.add(btnNewButton_2_2_1);
+		
+		JButton btnNewButton_2_2 = new JButton("New button");
+		btnNewButton_2_2.setBounds(12, 137, 133, 117);
+		panel.add(btnNewButton_2_2);
+		
+		JRadioButton rdbtnNewRadioButton = new JRadioButton("1");
+		rdbtnNewRadioButton.setBounds(355, 388, 31, 23);
+		panel.add(rdbtnNewRadioButton);
+		
+		JRadioButton rdbtnNewRadioButton_1 = new JRadioButton("1");
+		rdbtnNewRadioButton_1.setBounds(390, 388, 31, 23);
+		panel.add(rdbtnNewRadioButton_1);
+		
+		JRadioButton rdbtnNewRadioButton_1_1 = new JRadioButton("1");
+		rdbtnNewRadioButton_1_1.setBounds(426, 388, 31, 23);
+		panel.add(rdbtnNewRadioButton_1_1);
+		
+		JRadioButton rdbtnNewRadioButton_1_1_1 = new JRadioButton("1");
+		rdbtnNewRadioButton_1_1_1.setBounds(462, 388, 31, 23);
+		panel.add(rdbtnNewRadioButton_1_1_1);
+		
+		JRadioButton rdbtnNewRadioButton_1_1_1_1 = new JRadioButton("1");
+		rdbtnNewRadioButton_1_1_1_1.setBounds(497, 388, 31, 23);
+		panel.add(rdbtnNewRadioButton_1_1_1_1);
+		
+		JRadioButton rdbtnNewRadioButton_1_1_1_2 = new JRadioButton("1");
+		rdbtnNewRadioButton_1_1_1_2.setBounds(529, 388, 31, 23);
+		panel.add(rdbtnNewRadioButton_1_1_1_2);
+	}
+}

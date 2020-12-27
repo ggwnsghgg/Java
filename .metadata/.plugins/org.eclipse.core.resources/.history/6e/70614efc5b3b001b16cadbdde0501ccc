@@ -1,0 +1,55 @@
+package pos;
+
+import java.awt.EventQueue;
+
+import javax.swing.ImageIcon;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+
+public class main {
+
+	private JFrame frame;
+	private JPanel panel;
+	ImageIcon icon = new ImageIcon("\"C:\\\\Java_LAB\\\\Pos_Project\\\\src\\\\pos\\\\event.jpg\"");
+	
+	
+	
+
+	/**
+	 * Launch the application.
+	 */
+	public static void main(String[] args) {
+		EventQueue.invokeLater(new Runnable() {
+			public void run() {
+				try {
+					main window = new main();
+					window.frame.setVisible(true);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		});
+	}
+
+	/**
+	 * Create the application.
+	 */
+	public main() {
+		initialize();
+	}
+
+	/**
+	 * Initialize the contents of the frame.
+	 */
+	private void initialize() {
+		frame = new JFrame();
+		frame.setBounds(100, 100, 510, 700);
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frame.getContentPane().setLayout(null);
+		
+		JLabel lblNewLabel = new JLabel(new ImageIcon("C:\\Java_LAB\\Pos_Project\\src\\pos\\event.jpg"));
+		lblNewLabel.setBounds(42, 73, 409, 474);
+		frame.getContentPane().add(lblNewLabel);
+	}
+}

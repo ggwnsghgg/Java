@@ -1,0 +1,417 @@
+package shin;
+
+import java.awt.EventQueue;
+import java.awt.Image;
+import java.awt.Panel;
+import java.awt.image.BufferedImage;
+import java.io.File;
+
+import javax.imageio.ImageIO;
+import javax.swing.*;
+import java.awt.BorderLayout;
+import java.awt.Color;
+import java.awt.FlowLayout;
+import java.awt.Font;
+import java.awt.Frame;
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
+
+
+
+// ------------------------------------------------------------------------------------------------
+
+
+
+// 메인 화면
+
+
+
+// ------------------------------------------------------------------------------------------------
+
+
+public class main {
+   
+   private JFrame frame;
+   private BufferedImage imag1;
+
+  
+   /**
+    * Launch the application.
+    */
+   public static void main(String[] args) {
+      EventQueue.invokeLater(new Runnable() {
+         public void run() {
+            try {
+               main window = new main();
+               window.frame.setVisible(true);
+            } catch (Exception e) {
+               e.printStackTrace();
+            }
+         }
+      });
+   }
+
+   /**
+    * Create the application.
+    */
+   public main() {
+      initialize();
+      
+      
+      
+   }
+
+   /**
+    * Initialize the contents of the frame.
+    */
+   private void initialize() {
+      
+   
+	  JButton btn1 = new JButton("구매하러가기");
+      ImageIcon img1 = new ImageIcon("C:\\Users\\shin\\Desktop\\pos\\src\\shin\\event.jpg");
+      Image ch1 = img1.getImage();
+      Image ch2 = ch1.getScaledInstance(409, 610, Image.SCALE_SMOOTH);
+      
+      
+      
+      frame = new JFrame();
+      frame.setTitle("CU \uBB34\uC778 \uD3EC\uC2A4\uAE30");
+      frame.setBounds(100, 100, 700, 800);
+      frame.setResizable(false);
+      frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+      frame.getContentPane().setLayout(null);
+      
+      JButton btnNewButton = new JButton("\uAD6C\uB9E4\uD558\uB7EC \uAC00\uAE30");
+      btn1.addActionListener(new ActionListener() {
+		
+		@Override
+		public void actionPerformed(ActionEvent e) {
+			frame.setVisible(false);
+			new menu();
+		}
+	});
+
+ 
+
+   
+
+      btn1.setBounds(268, 728, 133, 23);
+      
+      frame.getContentPane().add(btn1);
+      
+      
+      JLabel lblNewLabel = new JLabel();
+      lblNewLabel.setIcon(new ImageIcon(ch2));
+      lblNewLabel.setBounds(138, 108, 409, 610);
+      frame.getContentPane().add(lblNewLabel);
+      
+      JLabel lblNewLabel_1 = new JLabel();
+      lblNewLabel_1.setIcon(new ImageIcon("C:\\Users\\shin\\Desktop\\pos\\src\\shin\\banner.PNG"));
+      lblNewLabel_1.setBounds(92, 21, 512, 77);
+      frame.getContentPane().add(lblNewLabel_1);
+      frame.setVisible(true);
+      
+      
+   }
+   
+   
+   
+   
+   
+   
+   
+   
+   // ------------------------------------------------------------------------------------------------
+   
+   
+   
+  // 메뉴 프레임
+   
+   
+   
+   // ------------------------------------------------------------------------------------------------
+   
+   
+
+   public class menu extends JFrame{
+	   
+	  menu () {
+		   
+	JFrame menu = new JFrame("메뉴");
+	menu.setSize(740, 590);
+	menu.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+	menu.getContentPane().setLayout(null);   
+	menu.setResizable(false);
+	menu.setTitle("메뉴");
+	menu.setLayout(null);
+	JLabel label = new JLabel(new ImageIcon("C:\\Users\\shin\\Desktop\\pos\\src\\shin\\banner.PNG"));
+	label.setBounds(12, 10, 700, 70);
+
+
+	
+
+	// 맨윗줄 메뉴 버튼
+	
+	JButton btn = new JButton("관리자 로그인");
+	btn.setBounds(12, 494, 40, 40);
+	btn.addActionListener(new ActionListener() {
+		
+		@Override
+		public void actionPerformed(ActionEvent e) {
+			menu.setVisible(false);
+			new login();
+		}
+	});
+	
+	
+	JButton btn1 = new JButton("메뉴1");
+	btn1.setBounds(12, 100, 102, 103);
+	
+	JButton btn2 = new JButton("메뉴2");
+	btn2.setBounds(126, 100, 102, 103);
+	
+	JButton btn3 = new JButton("메뉴3");
+	btn3.setBounds(240, 100, 102, 103);
+	
+	JButton btn4 = new JButton("메뉴4");
+	btn4.setBounds(354, 100, 102, 103);
+	
+	JButton btn5 = new JButton("메뉴5");
+	btn5.setBounds(469, 100, 102, 103);
+	
+	JButton btn6 = new JButton("메뉴6");
+	btn6.setBounds(584, 100, 102, 103);
+	
+
+	
+	// 중간줄 메뉴 버튼
+	
+
+	JButton btn7 = new JButton("메뉴7");
+	btn7.setBounds(12, 210, 102, 103);
+	
+	JButton btn8 = new JButton("메뉴8");
+	btn8.setBounds(126, 210, 102, 103);
+	
+	JButton btn9 = new JButton("메뉴9");
+	btn9.setBounds(240, 210, 102, 103);
+	
+	JButton btn10 = new JButton("메뉴10");
+	btn10.setBounds(354, 210, 102, 103);
+	
+	JButton btn11 = new JButton("메뉴11");
+	btn11.setBounds(469, 210, 102, 103);
+	
+	JButton btn12 = new JButton("메뉴12");
+	btn12.setBounds(584, 210, 102, 103);
+	
+	
+	// 아랫줄 메뉴 버튼
+	
+	JButton btn13 = new JButton("메뉴7");
+	btn13.setBounds(12, 320, 102, 103);
+	
+	JButton btn14 = new JButton("메뉴8");
+	btn14.setBounds(126, 320, 102, 103);
+	
+	JButton btn15 = new JButton("메뉴9");
+	btn15.setBounds(240, 320, 102, 103);
+	
+	JButton btn16 = new JButton("메뉴10");
+	btn16.setBounds(354, 320, 102, 103);
+	
+	JButton btn17 = new JButton("메뉴11");
+	btn17.setBounds(469, 320, 102, 103);
+	
+	JButton btn18 = new JButton("메뉴12");
+	btn18.setBounds(584, 320, 102, 103);
+
+	
+	   
+	menu.getContentPane().add(btn);
+	menu.getContentPane().add(btn1);
+	menu.getContentPane().add(btn2);
+	menu.getContentPane().add(btn3);
+	menu.getContentPane().add(btn4);
+	menu.getContentPane().add(btn5);
+	menu.getContentPane().add(btn6);
+	menu.getContentPane().add(btn7);
+	menu.getContentPane().add(btn8);
+	menu.getContentPane().add(btn9);
+	menu.getContentPane().add(btn10);
+	menu.getContentPane().add(btn11);
+	menu.getContentPane().add(btn12);
+	menu.getContentPane().add(btn13);
+	menu.getContentPane().add(btn14);
+	menu.getContentPane().add(btn15);
+	menu.getContentPane().add(btn16);
+	menu.getContentPane().add(btn17);
+	menu.getContentPane().add(btn18);
+	 
+	
+	menu.getContentPane().add(label);
+	menu.setVisible(true);
+
+	  }
+	  
+	  
+	  
+
+
+	  
+	  
+// ------------------------------------------------------------------------------------------------
+		   
+		   
+		   
+// 관리자 로그인 프레임
+		   
+		   
+		   
+// ------------------------------------------------------------------------------------------------
+		  
+	  
+	  
+public class login extends JFrame {
+	login() {
+	
+		JFrame login = new JFrame("로그인");
+		login.setSize(300,300);
+		login.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		login.getContentPane().setLayout(null);   
+		login.setResizable(false);
+		login.setTitle("관리자 페이지");
+		login.setVisible(true);
+		login.setLayout(null);
+		
+		
+		JLabel title = new JLabel("관리자 로그인 페이지입니다.");
+		title.setBounds(80,10,200,30);
+		title.setOpaque(true);
+		title.setForeground(Color.RED);
+		
+		
+		JLabel id = new JLabel("ID ");
+		id.setBounds(40,60,40,30);
+		JLabel pw = new JLabel("pw ");
+		pw.setBounds(40,110,40,30);
+		
+		
+		// ID , PW 입력 구간
+		
+		JTextField id_f = new JTextField("");
+		id_f .setBounds(90,60,160,30);
+		id_f .setLayout(null);
+		
+		JPasswordField pw_f = new JPasswordField("");
+		pw_f.setBounds(90,110,160,30);
+		pw_f.setLayout(null);
+		
+		
+		// 로그인 버튼 구간
+		
+		JButton login_button = new JButton("로그인");
+		login_button.setBounds(90, 150, 150,40);
+		login_button.addActionListener(new ActionListener() {
+			
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				String id = "admin";
+				String pw = "xxx";
+				
+				if(id.equals(id_f.getText()) && pw.equals(pw_f.getText())) {
+					JOptionPane.showMessageDialog(null, "로그인 되었습니다.");
+					login.setVisible(false);
+					new admin();
+		}else {
+			JOptionPane.showMessageDialog(null, "ID나 PW가 틀렸습니다 다시 입력하세요");
+		}
+			
+			}
+		});
+		
+		
+		// 뒤로가기 버튼 구간
+		JButton back_button = new JButton("뒤로 가기");
+		back_button.setBounds(180,220,100,30);
+		back_button.addActionListener(new ActionListener() {
+			
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				login.setVisible(false);
+				new menu();
+			}
+		});
+		
+		
+		
+		login.add(title);
+		login.add(login_button);
+		login.add(back_button);
+		login.add(id_f);
+		login.add(pw_f);
+		login.add(id);
+		login.add(pw);
+		
+		
+	}
+}
+		  
+	  
+	  
+
+// ------------------------------------------------------------------------------------------------
+	   
+	   
+	   
+// 관리자 프레임
+	   
+	   
+	   
+// ------------------------------------------------------------------------------------------------
+	  
+	
+  
+public class admin extends JFrame {
+	 
+
+  // 프레임 정의 구문 입니다.
+	  admin () {
+	JTabbedPane t = new JTabbedPane();
+	JFrame admin = new JFrame("관리자 페이지");
+	JPanel p = new JPanel();	
+	JButton btn = new JButton();
+	JTable table = new JTable(contents,header);
+	JScrollPane scroll = new JScrollPane(table);
+	
+	String header[] = {"관리자 명" , "관리자 ID", "관리자 PW"};
+	String contents[][]= {
+			{"신준호","admin","xxx"},
+			{"테스트","admin1","xxx"},
+	};
+	
+
+	
+
+	
+	
+	t.add("어드민 관리",scroll);
+	t.add("상품 관리", new JTextArea());
+
+		  
+	admin.setSize(400, 400);
+	admin.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+	admin.setResizable(false);
+	admin.setTitle("관리자 페이지");
+	admin.setVisible(true);
+	admin.setLocationRelativeTo(null);
+	
+		// 판넬 정의 구문 입니다.
+	
+
+	
+	admin.add(t);
+			}
+   		}
+   }
+} 	

@@ -1,0 +1,24 @@
+package pos;
+
+import javax.swing.*;
+import java.awt.*;
+
+public class main extends JFrame{
+	
+	main() {
+		setTitle("Cu 무인 포스기입니다.");
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
+		Container c = getContentPane();
+		c.setLayout(new FlowLayout(FlowLayout.LEFT, 30 ,40));
+		
+		c.add(new JButton("상품고르기"));
+		
+		setSize(300,500);
+		setVisible(true);
+	}
+	
+public static void main(String[] args) {
+	new main();
+	}
+}

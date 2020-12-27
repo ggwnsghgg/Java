@@ -14,8 +14,8 @@ public class CheckBoxEx extends JFrame{
 		
 		// 이미지 체크박스를 만들기 위해 2개의 이미지 객체를 생성한다.
 
-		ImageIcon cherryIcon = new ImageIcon("C:\\Java_LAB\\master_CH11\\src\\master_CH11\\Cherry.jpg");
-		ImageIcon selectedCherryIcon = new ImageIcon("C:\\Java_LAB\\master_CH11\\src\\master_CH11\\cyber.jpg");
+		ImageIcon cherryIcon = new ImageIcon("C:\\Java_LAB\\master_CH11\\src\\master_CH11\\cherry.jpg");
+		ImageIcon selectedCherryIcon = new ImageIcon("C:\\Java_LAB\\master_CH11\\src\\master_CH11\\selectedCherry.jpg");
 
 		
 		// 3개의 체크박스 컴포넌트 생성.
